@@ -16,8 +16,8 @@ Ensure you have the following installed:
 **Clone the repository:**
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/desonglll/ai-algo
+cd ai-algo
 ```
 
 **Create and activate a Conda environment:**

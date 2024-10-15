@@ -20,8 +20,12 @@ imageio = "^2.36.0"
 tensorflow-datasets = "^4.9.6"
 datasets = "^3.0.1"
 torch = "^2.4.1"
-transformers = "^4.45.2"
+transformers = {extras = ["torch"], version = "^4.45.2"}
 tf-keras = "^2.17.0"
+accelerate = ">=0.26.0"
+pillow = "^10.4.0"
+torchvision = "^0.19.1"
+gym = "^0.26.2"
 
 
 [build-system]
